@@ -1,0 +1,39 @@
+.footerAdvMainContainer {
+  width: 1440px;
+  max-width: 100%;
+  margin: 122px auto 0;
+  padding: 0 135px;
+  background-color: #ec663d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerAdvLeftCont h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  color: #fff;
+  width: 469px;
+}
+.footerAdvRightCont img {
+  margin-top: 43px;
+}
+.footerAdvRightCont {
+  position: relative;
+  height: 400px;
+}
+.iPhone {
+  position: absolute;
+  top: -10px;
+  left: 150px;
+  z-index: 1;
+}
+.clustur1 {
+  margin: 60px;
+  position: relative;
+}
+.clustur2 {
+  position: absolute;
+  top: 180px;
+  left: 350px;
+}

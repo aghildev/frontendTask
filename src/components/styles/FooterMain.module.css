@@ -1,0 +1,98 @@
+.footerMainContainer {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 135px;
+  position: relative;
+  background-color: #333333;
+  z-index: 1;
+  padding-top: 39px;
+}
+.footerMainHead {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  width: 304px;
+}
+.footerMainBigHead {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffff;
+  width: 277px;
+}
+.footerMenu,
+.footerSubscribe {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footerFirstFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerMainFirstText,
+.footerMainSecondText {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  width: 67px;
+  color: #fff;
+}
+.footerMainSecondText {
+  width: 41px;
+}
+.footerSecondFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 28px;
+}
+.footerTerms,
+.footerPrivacy,
+.footerCopyright {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+.footerPrivacy {
+  margin-left: 22px;
+}
+.footerCopyright {
+  color: rgba(255, 255, 255, 0.502972);
+  margin-left: 70px;
+}
+.footerLast {
+  display: flex;
+  justify-content: flex-end;
+}
+.footerInputContainer {
+  position: relative;
+  width: 270px;
+  height: 48px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+.footerMainInput {
+  width: 270px;
+  height: 48px;
+  border: 1px solid #dadada;
+  border-radius: 12px;
+  padding: 8px 276px 8px 16px;
+}
+.telgramIcon {
+  position: absolute;
+  top: 12px;
+  right: 0px;
+}
+.footerMainInput::placeholder {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 132px 8px 16px;
+}

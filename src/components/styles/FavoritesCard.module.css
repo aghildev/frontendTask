@@ -1,0 +1,60 @@
+.favoritesIndividualCardContainer {
+  width: 270px;
+  height: 320px;
+  margin-top: 56px;
+  border-radius: 12px;
+  background-color: #F7F7F7;
+}
+.restaurantName {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
+  padding-top: 24px;
+  padding-left: 24px;
+}
+.travelDistance {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  color: #333333;
+  padding-left: 24px;
+  margin-top: 3px;
+}
+.favoritesCategory {
+  margin-right: 21px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.501557);
+}
+.favSmallContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.favoritesIndividualCardContainer {
+  position: relative;
+}
+.ratingContainer {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1;
+}
+.starContainer {
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  display: flex;
+  align-items: center;
+   z-index: 2;
+}
+.starContainer p{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 9px;
+  
+}

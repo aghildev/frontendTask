@@ -1,0 +1,71 @@
+.individualCardContainer {
+  background-color: #f7f7f7;
+  width: 170px;
+  height: 240px;
+  padding: 32px 29px 96px 29px;
+  border-radius: 12px;
+  margin-top: 51px;
+  position: relative;
+}
+
+.individualCardContainerOrange {
+  background-color: #f49b3f;
+  width: 170px;
+  height: 240px;
+  padding: 32px 29px 96px 29px;
+  border-radius: 12px;
+  margin-top: 51px;
+  position: relative;
+  border: 8px solid #f49b3f;
+}
+.menuWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notificationWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 28px;
+  left: 94px;
+}
+.notificationCount {
+  position: absolute;
+  z-index: 2;
+}
+.notificationWrapper p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.foodItem {
+  position: absolute;
+  z-index: 2;
+}
+
+.ItemAndPrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ItemAndPrice h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 17px;
+}
+
+.ItemAndPrice h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.50133);
+}

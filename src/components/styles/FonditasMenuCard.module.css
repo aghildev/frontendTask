@@ -1,0 +1,72 @@
+.fontidasCardMainContainer {
+  width: 570px;
+  border-radius: 12px;
+  background-color: #f7f7f7;
+  border: 2px dashed black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fontidasLstCont {
+  display: flex;
+}
+.fontidasEnglishName {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.fontidasSpanishName {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 3px;
+}
+.fontidasSpeciality {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.501557);
+  margin-bottom: 16px;
+}
+.fontidasTiming {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+  margin-right: 83px;
+  margin-bottom: 21px;
+}
+.fontidasPrice {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.501557);
+  margin-right: 4px;
+}
+.fontidasImgContainer {
+  position: relative;
+}
+.ratingContainerFontidas {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1;
+}
+.starContainerFonditas {
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.starContainerFonditasRating {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 9px;
+}

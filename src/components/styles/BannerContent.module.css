@@ -1,0 +1,106 @@
+.bannerContentLeft h1 {
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 63px;
+}
+.bannerContentLeft {
+  width: 347px;
+  position: absolute;
+  top: 193px;
+}
+.bannerContentLeft h2 {
+  width: 533px;
+  height: 240px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  line-height: 80px;
+  font-size: 72px;
+  color: #fff;
+}
+.inputContainer {
+  position: relative;
+  width: 470px;
+  height: 48px;
+  margin-top: 49px;
+}
+
+.inputBox {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  padding:8px 276px 8px 16px;
+}
+
+.buttonInput {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 116px;
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: #eb8e78;
+  color: white;
+  cursor: pointer;
+}
+.inputBox::placeholder {
+  width: 178px;
+  height: 32px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.501557);
+}
+
+.facebookWrapper,.twitterWrapper,.instaWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+.facebookIcon,.twitterIcon,.instagramIcon{
+    position: absolute;
+    z-index: 2;
+}
+
+.socialIcons{
+    display: flex;
+    margin-top: 142px;
+}
+.bannerContentContainer{
+  position: relative;
+}
+.bannerCup{
+  position: absolute;
+  right: -40px;
+  top: 83px;
+  z-index: 3;
+}
+.cuttingBoard{
+  position: absolute;
+  top: 150px;
+  right: 25px;
+  z-index: 1;
+}
+.panEgg{
+  position: absolute;
+  top: 457px;
+  right: 257px;
+}
+.whiteDot1{
+  position: absolute;
+  top: 120px;
+  right: 350px;
+
+}
+.whiteDot2{
+  position: absolute;
+  top: 180px;
+  right: 350px;
+}

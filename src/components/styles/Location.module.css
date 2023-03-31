@@ -1,0 +1,119 @@
+.leftRect {
+  margin-top: 82px;
+}
+.styleImgContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  opacity: 0.7;
+
+}
+.locationMainContainer {
+  position: relative;
+  width: 1440px; 
+  max-width: 100%;
+  margin: 0 auto; 
+}
+
+.oval {
+  margin-top: 96px;
+  right: 0;
+}
+
+.locationContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.man {
+  position: absolute;
+  top: 133px;
+  left: 0px;
+  z-index: 1;
+  width: 840px;
+  height: 560px;
+}
+.map {
+  width: 170px;
+  height: 160px;
+  position: relative;
+  margin-right: 105px;
+  left: 565px;
+  right: 5px;
+  top: 154px;
+  z-index: 1;
+}
+.mapData{
+    width: 552px;
+    margin-right: 59px;
+}
+.mapbtn{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#fff;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #5EAE53;
+   width: 58px;
+   height: 32px;
+   text-transform: uppercase;
+   border-radius: 8px;
+   margin-bottom: 32px;
+}
+.mapData h2{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color:#333333
+}
+.mapText{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:rgba(51, 51, 51, 0.501557);
+}
+.mapInputContainer{
+  position: relative;
+  width: 270px;
+  height: 48px;
+  margin-top: 21px;
+}
+.mapInput{
+  width:270px;
+  height: 48px;
+  border: 1px solid #DADADA;
+  border-radius: 12px;
+  padding:8px 276px 8px 16px;
+}
+.gpsIcon{
+  position: absolute;
+  top: 14px;
+  right: 15px;
+}
+.mapInput::placeholder{
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding:8px 132px 8px 16px;
+}
+.mapbtnOrange{
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: #eb8e78;
+  color: white;
+  cursor: pointer;
+  padding:13px 22.5px 14px 22.5px;
+  margin-bottom: -30px;
+}
+.mapLastFlex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 21px;
+}

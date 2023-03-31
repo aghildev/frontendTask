@@ -1,0 +1,42 @@
+.categoriesHead {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  width: 114px;
+  height: 32px;
+  background-color: #5eae53;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.categoriesHeadContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  max-width: 100%;
+  margin: 75px auto 0;
+  padding: 0 135px;
+}
+
+.categoriesFavHead {
+  font-size: 58px;
+  font-weight: 700;
+  color: #333333;
+  font-family: "Work Sans", sans-serif;
+  padding-top: 18px;
+}
+
+.categoriesTemplateContainer {
+  display: flex;
+  gap: 30px;
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 135px;
+}
